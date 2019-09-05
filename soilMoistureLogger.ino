@@ -34,8 +34,8 @@
 #include <LiquidCrystal.h>
 
 //these variables control the timing of the program
-const int TOTAL_DELAY_BETWEEN_READINGS = 2; //minutes
-const int WARNING_TIME = 20; //seconds
+const int TOTAL_DELAY_BETWEEN_READINGS = 30; //minutes
+const int WARNING_TIME = 10; //seconds
 
 //declare file object and LiquidCrystal object
 const int RS = 10, EN = 9, D_4 = 5, D_5 = 4, D_6 = 3, D_7 = 2, led = 6;
